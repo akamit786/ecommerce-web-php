@@ -1,0 +1,70 @@
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .dropdown-menu li {
+    padding: 0.25rem 0;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 0.25rem 1.5rem;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #e9ecef;
+  }
+
+
+
+.btn-outline-success {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+    transform: scale(1.1);
+    
+}
+
+
+.navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: rotate(180deg);
+}
+.img-height{
+    height: 100%;
+max-height: 80vh;
+}
+#cardhome {
+    background-color: #002c3e;
+}
+.profile-img{
+ 
+  
+        border-radius: 50%;
+        width: 50px;
+      
+}
